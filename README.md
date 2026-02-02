@@ -26,9 +26,5 @@ Chào mừng đến với kho lưu trữ bài tập thực hành môn học **CS
 
 ## 📂 Cấu trúc thư mục
 
-* `BaiTap01/`: Làm quen với Github.
-* `Lab01/`: [Tên bài Lab sắp tới...]
-* `Project/`: [Tên dự án cuối kỳ...]
+* `BaiTapThucHah01/`: Bài tập thực hành 1
 
----
-*Created by **Vu Duc Hai Nam** © 2026*
