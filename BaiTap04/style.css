@@ -1,1 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Kẻ đường gạch chân dưới tiêu đề */
+.section-title {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Layout mỗi dòng: Label bên trái, Input bên phải */
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+/* Dùng cho textarea để label nằm lên trên cùng */
+.top-align {
+    align-items: flex-start;
+}
+
+/* Cột Label chiếm 25% chiều rộng */
+.form-group label {
+    width: 25%;
+    font-weight: bold;
+    font-size: 13px;
+    color: #444;
+}
+
+/* Cột Input chiếm phần còn lại */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    flex: 1; /* Chiếm hết chỗ trống còn lại */
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+}
+
+/* Phần Radio và Checkbox */
+.radio-group, .check-group {
+    display: flex;
+    flex-direction: column; /* Xếp dọc xuống giống ảnh */
+    gap: 5px;
+    font-size: 13px;
+}
+
+.radio-group label, .check-group label {
+    width: auto; /* Để label bên trong radio không bị ép width 25% */
+    font-weight: normal;
+}
+
+/* Giả lập khung Editor Textarea */
+.rich-editor {
+    flex: 1;
+    border: 1px solid #aaa;
+}
+.toolbar {
+    background: #eee;
+    padding: 3px;
+    border-bottom: 1px solid #aaa;
+}
+.toolbar button {
+    font-weight: bold;
+    width: 25px;
+    cursor: pointer;
+}
+textarea {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    resize: vertical;
+}
+
+/* Phần Captcha */
+.captcha-text {
+    font-family: "Courier New", monospace;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border: 1px dashed #999;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background: #eee;
+}
+
+/* Nút bấm cuối form */
+.form-actions {
+    text-align: right;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.btn-submit {
+    background: #333;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background: #999;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
