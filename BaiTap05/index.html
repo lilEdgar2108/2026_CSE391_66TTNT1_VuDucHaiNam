@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 05 - HR Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <nav class="navbar">
+        <div class="nav-left">
+            <h2>HR Management</h2>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-right">
+            <input type="text" placeholder="Search...">
+            <button class="btn-search">Search</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Employee</h1>
+            <a href="#addEmployeeModal" class="btn btn-primary">+ Add</a>
+        </div>
+
+        <table class="employee-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Fatima Beatriz</td>
+                    <td>Fatima.Beatriz@gmail.com</td>
+                    <td>0985674321</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gabriel Hanna</td>
+                    <td>Gabriel.Hanna@gmail.com</td>
+                    <td>0353674231</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Charles Diya</td>
+                    <td>Charles.Diya@gmail.com</td>
+                    <td>0347658833</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>4</td>
+                    <td>Frank Lamdo</td>
+                    <td>Frank.Lamdo@gmail.com</td>
+                    <td>0975444768</td>
+                    <td>Manager</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="addEmployeeModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>New Employee</h3>
+                <a href="#" class="close-btn">&times;</a>
+            </div>
+            
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label>Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Phone</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col">
+                            <label>Position</label>
+                            <select class="form-control">
+                                <option>-- Select Position --</option>
+                                <option>Staff</option>
+                                <option>Manager</option>
+                                <option>CEO</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label>Sex</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="sex"> Male</label>
+                                <label><input type="radio" name="sex"> Female</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Save</button>
+                        <a href="#" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
