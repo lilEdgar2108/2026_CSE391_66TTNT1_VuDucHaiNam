@@ -1,7 +1,7 @@
 # 2026_CSE391_66TTNT1_VuDucHaiNam
-# 📘 CSE391 - [Tên Môn Học Của Bạn]
+# 📘 CSE391 - Nền tảng phát triển web
 
-Chào mừng đến với kho lưu trữ bài tập thực hành môn học **CSE391**. Đây là nơi lưu trữ các dự án, bài lab và mã nguồn trong quá trình học tập của mình.
+Chào mừng đến với kho lưu trữ bài tập thực hành môn học nền tảng phát triển web. Đây là nơi lưu trữ các dự án, bài lab và mã nguồn trong quá trình học tập của mình
 
 ---
 
@@ -18,7 +18,7 @@ Chào mừng đến với kho lưu trữ bài tập thực hành môn học **CS
 ## 🚀 Mục tiêu môn học
 
 * Hiểu rõ quy trình quản lý mã nguồn với Git & GitHub.
-* Nắm vững các kiến thức về [Điền thêm tên công nghệ học trong môn này, v.d: C++, OOP, Python...].
+* Nắm vững các kiến thức về html,css,javascrip,...
 * Hoàn thành tốt các bài tập và dự án cuối kỳ.
 
 ---
@@ -27,4 +27,6 @@ Chào mừng đến với kho lưu trữ bài tập thực hành môn học **CS
 ## 📂 Cấu trúc thư mục
 
 * `BaiTapThucHah01/`: Bài tập thực hành 1
+
+---
 
