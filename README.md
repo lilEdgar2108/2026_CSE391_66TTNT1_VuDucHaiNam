@@ -24,9 +24,3 @@ Chào mừng đến với kho lưu trữ bài tập thực hành môn học nề
 ---
 
 
-## 📂 Cấu trúc thư mục
-
-* `BaiTapThucHah01/`: Bài tập thực hành 1
-
----
-
