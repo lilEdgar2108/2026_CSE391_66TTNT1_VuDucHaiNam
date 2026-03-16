@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Sinh viên</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 style="text-align: center;">STUDENT MANAGEMENT SYSTEM</h1>
+    
+    <div class="stats-bar" id="statsBar">
+        Tổng số sinh viên: 0 | Điểm TB lớp: 0.00
+    </div>
+
+    <button class="btn-add" onclick="window.location.href='students.html'">+ THÊM SINH VIÊN</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>MÃ SV</th>
+                <th>HỌ VÀ TÊN</th>
+                <th>NGÀY SINH</th>
+                <th>LỚP</th>
+                <th>ĐTB</th>
+                <th>ACTIONS</th>
+            </tr>
+        </thead>
+        <tbody id="studentTableBody">
+            </tbody>
+    </table>
+</div>
+
+<script src="manage.js"></script>
+</body>
+</html>

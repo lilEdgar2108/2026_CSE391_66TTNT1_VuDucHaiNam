@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Sinh Viên</title>
+    <link rel="stylesheet" href="students.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2 style="text-align: center;">Thêm Sinh Viên Mới</h2>
+    <form id="studentForm">
+        <div class="form-group">
+            <label>Mã sinh viên *</label>
+            <input type="text" id="studentId" placeholder="VD: SV123456">
+            <div class="error-message" id="err-studentId"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Họ và tên *</label>
+            <input type="text" id="fullName" placeholder="Nhập họ và tên">
+            <div class="error-message" id="err-fullName"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Ngày sinh *</label>
+            <input type="date" id="dob">
+            <div class="error-message" id="err-dob"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Lớp học *</label>
+            <select id="classRoom">
+                <option value="A">Lớp A</option>
+                <option value="B">Lớp B</option>
+                <option value="C">Lớp C</option>
+                <option value="D">Lớp D</option>
+            </select>
+            <div class="error-message" id="err-classRoom"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Điểm trung bình (GPA) *</label>
+            <input type="number" id="gpa" step="0.01" placeholder="Từ 0 đến 10">
+            <div class="error-message" id="err-gpa"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Email sinh viên *</label>
+            <input type="email" id="email" placeholder="email@student.edu.vn">
+            <div class="error-message" id="err-email"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Mật khẩu tài khoản *</label>
+            <input type="password" id="password" placeholder="Tối thiểu 8 ký tự">
+            <div class="error-message" id="err-password"></div>
+        </div>
+
+        <div class="form-group">
+            <label>Xác nhận mật khẩu *</label>
+            <input type="password" id="confirmPassword">
+            <div class="error-message" id="err-confirmPassword"></div>
+        </div>
+
+        <button type="submit">LƯU SINH VIÊN</button>
+    </form>
+</div>
+
+<script src="students.js"></script>
+</body>
+</html>
